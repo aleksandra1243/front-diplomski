@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  server_url: "http://www.aleksandramarkovic.me/api/hire"
+  server_url: "https://aleksandramarkovic-api.herokuapp.com/api/hire"
 };
