@@ -1,0 +1,65 @@
+<div class="main-div">
+
+    <div class="menu">
+        <a href="#about-me"><p>About me</p></a><br/>
+        <a href="#education"><p>Education</p></a><br/>
+        <a href="#background"><p>Background</p></a><br/>
+        <a href="#resume"><p>Resume</p></a><br/>
+        <a href="#hire-me"><p>Hire me</p></a><br/>
+    </div>
+
+    <div class="div1" id="about-me">
+        <img class="about-me-photo" src="../../assets/prof.png" alt="Profile photo 1">
+        <p class="about-me-text">Hello, my name is Aleksandra Markovic and I am Full Stack Web Developer. <br/><br/>
+            I have 1 year of working experience and strong engineering knowledge behind me.<br/><br/>            
+            Hire me if you need sharp-minded, skilled and well-organized person in your team.
+        </p>
+    </div>
+
+    <div class="div2" id="education">
+        <p class="education-text">I am final year student of Applied Software Engineering.<br/><br/> 
+            I have finished 2 final years of elementary school for pupils gifted in math. <br/><br/>            
+            After that, I graduated from The First Grammar School in Kragujevac, Serbia, majoring in natural sciences and mathematics.
+        </p>
+        <img class="education-photo-1" alt="Profile photo 2" src="../../assets/mm.png">
+    </div>
+
+    <div class="div3" id="background">
+        <p class="background-text">I have been working as Full Stack Developer in Marble IT in Novi Sad, Serbia since January 2022. <br/><br/>  
+            I started as a .NET Developer, but very soon I was working on applications in React, Java, Angular and Django REST. 
+            Since then, I have worked with many DBMSs, on deploying applications, financial systems, cron jobs etc. and of course, communicated with many clients. <br/><br/>              
+            I love my working environment because I can hang out with my colleagues on breaks and even after work. <br/><br/>  <br/><br/>            
+            
+            I have also done two student internships during 2021: <br/><br/>              
+            I was on 3 week internship in Levi9 Service Technologies where I worked in a team of four. 
+            We were developing REST API application in Java for flight ticket reservations. <br/><br/>  
+            
+            I was QA Java intern for the company Lion Eight in Kragujevac, Serbia. 
+            I was working alone with mentor on developing end to end tests for the company’s internal web application.<br/><br/>   
+        </p>
+    </div>
+
+    <div class="div4" id="resume">
+        <p class="resume-text-1">You can find my LinkedIn profile by clicking on my avatar</p>
+        <a href="https://www.linkedin.com/in/aleksandramark/" target="_blank"><img class="resume-image" src="../../assets/me.png"></a>
+        <p class="resume-text-2">Or download my resume by clicking on it</p>
+        <a href="../../assets/cv.pdf" download><img class="cv-image" src="../../assets/cv.png"></a>
+    </div>
+
+    <div class="div5" id="hire-me">
+        <p class="hire-text-1">Want to hire me?<br/>Feel free to contact me with this form:</p><br/>
+        <form class="hire-form">
+            <div class="hire-div">
+                <p>Your name:</p>
+                <input [(ngModel)]="name" type="text" name="name" required>
+                <p>Your email address:</p>
+                <input type="email" [(ngModel)]="email" name="email" required>
+                <p>Message:</p>
+                <textarea [(ngModel)]="message" style="height: 200px;" name="message"></textarea><br/>
+                <label id="label"> </label>
+                <input type="submit" (click)="hire()" value="Send" >
+            </div>
+        </form>
+    </div>
+
+</div>

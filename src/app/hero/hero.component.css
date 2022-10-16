@@ -1,0 +1,211 @@
+.main-div {
+    width: 100%;
+}
+
+.menu {
+    width: 150px;
+    z-index: 100;
+    position:fixed;
+    top: 50px;
+    left: 60px;
+    font-size: 25px;
+}
+
+.div1 {
+    background-image: url("../../assets/bg51.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1000px;
+    width: 105%;
+    z-index: -1;
+}
+
+.about-me-photo {
+    position: absolute;
+    top: 380px;
+    left: 600px;
+    height: 300px;
+    width: auto;
+}
+
+.about-me-text {
+    position: absolute;
+    top: 360px;
+    left: 980px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.div2 {
+    position: absolute;
+    top:1000px;
+    height: 700px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.education-text {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+.education-photo-1 {
+    height: 350px;
+    width: auto;
+    position: inherit;
+    top: 150px;
+    left: 1200px;
+}
+
+.education-photo-2 {
+    transform: rotate(29.16deg);
+    height: 300px;
+    width: auto;
+    position: inherit;
+    top: 65px;
+    left: 1272px;
+}
+
+.div3 {
+    background-image: url("../../assets/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:1700px;
+    left: 0px;
+    height: 920px;
+    width: 105%;
+}
+
+.background-text {
+    position: relative;
+    top: 200px;
+    left: 500px;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.div4 {
+    position: absolute;
+    top:2700px;
+    height: 700px;
+    width: 100%;
+    background-color: white;
+}
+
+.cv-image {
+    box-sizing: border-box;
+    position: absolute;
+    width: 279.29px;
+    left: 0px;
+    height: 394.75px;
+    left: 1430px;
+    top: 70.5px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    transform: rotate(-17.61deg);
+}
+
+.resume-image {
+    position: absolute;
+    width: auto;
+    height: 394.75px;
+    left: 630px;
+    top: 220.5px;
+}
+
+.resume-text-1 {
+    position: absolute;
+    width: 280px;
+    left: 690px;
+    top: 80.5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.resume-text-2 {
+    position: absolute;
+    width: 280px;
+    left: 1430px;
+    top: 530.5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.div5 {
+    background-image: url("../../assets/bg41.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:3400px;
+    left: 0px;
+    height: 1000px;
+    width: 105%;
+}
+
+.hire-form {
+    position: relative;
+    top: 100px;
+    left: 950px;
+    font-size: 20px;
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.hire-div {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.hire-text-1 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    font-size: 20px;
+}
+
+textarea#editor {
+    border:none;
+    width:70%;
+    height:80%;
+    margin-left:10%;
+    margin-right:10%;
+  }
+
+input, textarea {
+    width: 260px;
+    background: #E1E1E1;
+    border: 1px solid #818181;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    height: 30px;
+}
+
+input[type=submit] {
+    position: relative;
+    left: 12%;
+    background: #D8BEB4;
+    border: 1px solid #818181;
+    border-radius: 200px;
+    width: 194px;
+    height: 58px;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+}
